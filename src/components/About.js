@@ -22,8 +22,8 @@ function About() {
                 <h1 className="text-green-500 mt-8 font-bold text-2xl md:text-4xl ">Web developer/Data Science learner</h1>
                 <br/>
                 <p className="text-xl md:text-3xl">I am a BTech Computer Science (AI&DS) Student From Poornima University<br/>
-                I am a passionate web developer<br/>
-                I am in 3rd Year and Work on Shoes Business Website and Learn DSA in JAVA
+                I am a passionate Full Stack Web Developer<br/>
+                I am in Final Year and work in DigiRoket as an intern
                 </p>
             </div>
         </div>
@@ -63,7 +63,7 @@ function About() {
                     <li>
                         <h2 className="flex items-center space-x-2 text-xl md:text-3xl">
                         <FaArrowRightLong className="mr-4 text-green-500" />
-                        Age: <span className="text-xl md:text-2xl">20</span>
+                        Age: <span className="text-xl md:text-2xl">21</span>
                         </h2>
                     </li>
                     <li>
