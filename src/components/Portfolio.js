@@ -50,7 +50,7 @@ function Portfolio() {
         {
             id:8,
             logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechorigine.com%2Fwhat-is-mysql%2F&psig=AOvVaw2wO6eImvJAF2rc4DYLNIXz&ust=1750763151891000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjYxI-zh44DFQAAAAAdAAAAABAK",
-            name "My SQL"
+            name: "My SQL"
         },
     ]
   return (
