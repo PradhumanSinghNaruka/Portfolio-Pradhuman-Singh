@@ -46,12 +46,17 @@ function Portfolio() {
             id:7,
             logo:python,
             name:"Python"
-        }
+        },
+        {
+            id:8,
+            logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechorigine.com%2Fwhat-is-mysql%2F&psig=AOvVaw2wO6eImvJAF2rc4DYLNIXz&ust=1750763151891000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjYxI-zh44DFQAAAAAdAAAAABAK",
+            name "My SQL"
+        },
     ]
   return (
     <div name="Portfolio" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-32 mt-10">
         <div>
-            <h1 className="text-4xl font-bold mb-5">Portfolio</h1>
+            <h1 className="text-5xl font-bold mb-5">Portfolio</h1>
             <div className="grid grid-cols-1 md:space-x-4 ml-20 mt-8 md:mt-8 md:ml-8 md:grid-cols-4">
                 {
                     cardItem.map(({id, logo, name})=>(
