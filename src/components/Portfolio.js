@@ -6,6 +6,7 @@ import js from "../image/js.png";
 import node from "../image/node.png";
 import mongo from "../image/mongo.png";
 import python from "../image/python.png";
+import sql from "../image/image1.png";
 
 function Portfolio() {
     const greenShadow = {
@@ -49,7 +50,7 @@ function Portfolio() {
         },
         {
             id:8,
-            logo: "image1.png",
+            logo: sql,
             name: "My SQL"
         },
     ]
