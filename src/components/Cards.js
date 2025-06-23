@@ -1,8 +1,6 @@
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 
-gsap.registerPlugin(ScrollTrigger);
-
 function Cards() {
   return (
     <>
