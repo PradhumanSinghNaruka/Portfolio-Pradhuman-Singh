@@ -45,7 +45,7 @@ function About() {
                     <li>
                         <h2 className="flex items-center space-x-2 text-xl md:text-3xl">
                         <FaArrowRightLong className="mr-4 text-green-500" />
-                        Phone: <span className="text-xl md:text-2xl">Contact via Mail :)</span>
+                        Phone: <span className="text-xl md:text-2xl">Contact: 8107773336</span>
                         </h2>
                     </li>
                     <li>
@@ -79,12 +79,6 @@ function About() {
                         </h2>
                         <br/>
                         <span className="text-xl md:text-2xl">pradhumannaruka04@gmail.com</span>
-                    </li>
-                    <li>
-                        <h2 className="flex items-center space-x-2 text-xl md:text-3xl">
-                        <FaArrowRightLong className="mr-4 text-green-500" />
-                        Freelance: <span className="text-xl md:text-2xl">Available</span>
-                        </h2>
                     </li>
                 </ul>
             </div>
