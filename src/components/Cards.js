@@ -4,7 +4,7 @@ import { CgWebsite } from "react-icons/cg";
 function Cards() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
+      <div className="max-w-screen-2xl container mx-auto px-4">
         <marquee>
           <p className="text-2xl md:text-3xl font-bold space-y-4 text-white">
             My Projects, Intenship Projects, My Projects, Intenship Projects, My Projects, Intenship Projects, My Projects, Intenship Projects, My Projects,
