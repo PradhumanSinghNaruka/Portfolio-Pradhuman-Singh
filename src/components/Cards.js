@@ -1,6 +1,4 @@
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
 import { CgWebsite } from "react-icons/cg";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -24,7 +22,6 @@ function Cards() {
         </div>
         <div className="block md:flex space-x-3 md:space-x-32 justify-center md:mt-0 py-24">
             <div
-  ref={(el) => (cardsRef.current[0] = el)}
   className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
   onClick={() => window.open("https://psn-shoes.vercel.app/", "_blank")}
 >
@@ -37,7 +34,6 @@ function Cards() {
 
 
             <div
-  ref={(el) => (cardsRef.current[0] = el)}
   className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
   onClick={() => window.open("https://neftap.com/", "_blank")}
 >
@@ -50,7 +46,6 @@ function Cards() {
 
 
             <div
-  ref={(el) => (cardsRef.current[0] = el)}
   className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
   onClick={() => window.open("https://portfolio-pradhuman-singh.vercel.app/", "_blank")}
 >
