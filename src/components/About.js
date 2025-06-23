@@ -5,7 +5,7 @@ import { ReactTyped,Typed } from "react-typed";
 function About() {
   return (
     <div name="About" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-32">
-        <div className="text-3xl md:text-4xl font-bold mb-5">
+        <div className="text-3xl md:text-4xl font-bold mb-5 space-y-4">
             About <span className="text-green-500"></span>
             <br/>
             {/* <h1 className="mt-8 font-bold text-4xl md:text-6xl text-green-200">Learn more about me</h1> */}
