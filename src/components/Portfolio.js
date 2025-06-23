@@ -64,7 +64,7 @@ function Portfolio() {
                         <div className=""key={id}>
                             <img src= {logo} className="w-[190px] h-[190px] md:w-[160px] md:h-[160px] p-1 rounded-full border-[2px] hover:scale-110 transition-transform duration-300" style={greenShadow}></img>
                             <div>
-                                <div className="text-2xl font-bold ml-10 mb-6 mt-4 md:mb-12">{name}</div>
+                                <div className="text-2xl font-bold ml-10 mb-6 mt-4">{name}</div>
                                 
                             </div>
                         </div>
