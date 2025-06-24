@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio'
 import Cards from "./components/Cards"
 import Percentage from './components/Percentage'
 import Contact from './components/Contact'
+import Cv from "./components/Cv"
 import Marquee from './components/Marquee'
 import { Toaster } from 'react-hot-toast'
 
@@ -24,6 +25,7 @@ function App() {
       <Portfolio />
       <Cards />
       <Percentage />
+      <Cv />
       <Contact />
       <Marquee />
     </div>
