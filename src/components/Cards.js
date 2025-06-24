@@ -14,7 +14,7 @@ function Cards() {
 
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 bg-black mt-4 ">
         <div className="mt-4 p-3">
-          <h1 className="font-semibold md:font-bold mt-4 text-2xl md:text-5xl text-center flex flex-wrap justify-center gap-2">
+          <h1 className="font-semibold md:font-bold mt-4 text-4xl md:text-5xl text-center flex flex-wrap justify-center gap-2">
             My Projects
           </h1>
         </div>
