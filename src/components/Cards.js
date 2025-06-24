@@ -12,7 +12,7 @@ function Cards() {
         </marquee>
       </div>
 
-      <div className="max-w-screen-2xl container mx-auto space-x-3 md:space-x-32 justify-center px-4 md:px-20 bg-black mt-4 ">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 bg-black mt-4 ">
         <div className="mt-4 p-3">
           <h1 className="font-semibold md:font-bold mt-4 text-2xl md:text-5xl text-center flex flex-wrap justify-center gap-2">
             My Projects
@@ -32,7 +32,7 @@ function Cards() {
 
 
             <div
-  className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
+  className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl mt-8 md:mt-0 w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
   onClick={() => window.open("https://neftap.com/", "_blank")}
 >
   <CgWebsite className="w-10 h-10 text-center ml-24 md:ml-28 mt-4" />
@@ -44,7 +44,7 @@ function Cards() {
 
 
             <div
-  className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
+  className="block text-center p-4 bg-black text-white cursor-pointer border rounded-xl mt-8 md:mt-0 w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-white hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
   onClick={() => window.open("https://portfolio-pradhuman-singh.vercel.app/", "_blank")}
 >
   <CgWebsite className="w-10 h-10 text-center ml-24 md:ml-28 mt-4" />
