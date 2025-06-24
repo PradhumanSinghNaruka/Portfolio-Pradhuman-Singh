@@ -7,7 +7,7 @@ export default function ResumePage() {
       <div className="text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">My Resume</h1>
         <a
-          href="/assets/Pradhuman-Resume.pdf"
+          href="/Pradhuman.pdf.pdf"
           download
           className="inline-flex items-center gap-2 px-6 py-2 text-white bg-green-500 rounded-full hover:bg-green-700 transition text-sm md:text-base"
         >
