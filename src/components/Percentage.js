@@ -14,10 +14,10 @@ function ProgressBar({ percentage }) {
   
   function Percentage() {
     return (
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-32 md:mt-10">
-        <h1 className="mb-8 text-4xl font-bold">Experience</h1>
-        <h1 className="text-xl font-bold mb-4">HTML 100%</h1>
-        <ProgressBar percentage={100} />
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-32 md:mt-24">
+        <h1 className="mb-8 text-4xl font-bold"></h1>
+        <h1 className="text-xl font-bold mb-4">HTML 90%</h1>
+        <ProgressBar percentage={90} />
         <h1 className="text-xl font-bold mb-4 mt-8">CSS   85%</h1>
         <ProgressBar percentage={85} />
         <h1 className="text-xl font-bold mb-4 mt-8">Java Script 75%</h1>

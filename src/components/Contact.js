@@ -101,7 +101,7 @@ function Contact() {
         name="Contact"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
-        <h1 className="text-4xl font-bold mb-4">Contact</h1>
+        <h1 className="text-4xl font-bold mb-4 text-center underline text-green-500">Contact</h1>
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
             onSubmit={handleSubmit(onSubmit)}
