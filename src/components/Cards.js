@@ -19,7 +19,7 @@ function Cards() {
             My Projects
           </h1>
         </div>
-        <div className="block md:flex space-x-3 md:space-x-32 justify-center md:mt-0 py-24">
+        <div className="block md:flex space-y-12 md:space-y-0 space-x-3 md:space-x-32 justify-center md:mt-0 py-24">
           <div
             className="block text-center p-4 bg-black text-white cursor-pointer border border-white rounded-md w-[300px] ml-3 md:ml-0 space-y-6 hover:bg-green-500 hover:text-black hover:border-black duration-300 shadow-2xl shadow-black"
             onClick={() =>
