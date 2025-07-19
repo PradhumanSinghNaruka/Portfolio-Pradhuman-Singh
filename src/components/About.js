@@ -89,7 +89,7 @@ function About() {
                 Email:
               </h2>
               <br />
-              <span className="text-md md:text-2xl">
+              <span className="text-sm md:text-2xl text-wrap">
                 2022btechaidspradhuman10975@poornima.edu.in
               </span>
             </li>
@@ -97,7 +97,7 @@ function About() {
               <h2 className="flex items-center space-x-0 md:space-x-2 text-xl md:text-3xl">
                 <IoLogoGithub className="mr-4 text-green-500" />
                 Github:{" "}
-                <span className="text-lg md:text-2xl">
+                <span className="text-sm md:text-2xl">
                   github.com/PradhumanSinghNaruka
                 </span>
               </h2>

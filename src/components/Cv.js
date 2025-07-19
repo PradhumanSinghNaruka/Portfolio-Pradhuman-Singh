@@ -18,7 +18,7 @@ export default function ResumePage() {
       {/* Summary */}
       <section>
         <h2 className="text-2xl font-semibold text-white mb-2">Summary</h2>
-        <p className="text-white leading-relaxed text-sm md:text-base">
+        <p className="text-white leading-relaxed text-sm md:text-base text-wrap">
           I am a dedicated MERN Stack Developer with experience in creating
           full-stack applications utilizing React.js, Node.js, and various
           databases. I have successfully built and deployed projects like
