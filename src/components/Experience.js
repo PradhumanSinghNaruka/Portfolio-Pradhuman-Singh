@@ -10,7 +10,7 @@ function Experience() {
       </p>
       <div className="w-full grid md:flex gap-6">
         <div
-          className="max-w-screen-2xl mx-auto px-4 mt-16 grid justify-center items-center w-full md:w-1/2 h-auto p-3 rounded-sm shadow-md shadow-green-400 cursor-pointer space-y-12 mb-8"
+          className="max-w-screen-2xl mx-auto px-4 mt-16 grid justify-center items-center w-full md:w-1/2 h-auto p-3 rounded-xl shadow-sm shadow-green-400 cursor-pointer space-y-12 mb-8"
           onClick={() => window.open("https://neftap.com/", "_blank")}
         >
           <div className="w-full justify-center items-center text-center order-1">
